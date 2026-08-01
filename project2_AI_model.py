@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 def main():
-    print("--- DecodeLabs Project 2: Advanced KNN Classification ---")
+    print("--- Advanced KNN Classification ---")
     
     # 1. INPUT: Load Data
     print("\nLoading Iris dataset...")
