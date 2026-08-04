@@ -6,7 +6,7 @@ This repository contains an advanced predictive classification model built durin
 ## The Architecture: IPO Framework
 The model was constructed using the Input-Process-Output (IPO) framework to ensure structural integrity:
 
-* **Input:** Utilizes the benchmark Iris dataset, containing 150 balanced samples across 3 classes and 4 dimensions (Sepal/Petal Length and Width)[cite: 1].
+* **Input:** Utilizes the benchmark Iris dataset, containing 150 balanced samples across 3 classes and 4 dimensions (Sepal/Petal Length and Width).
 * **Process:** The data is randomized and split into an 80% training set and a 20% testing set. It is scaled using `StandardScaler` to ensure equal feature weighting. The core logic is powered by the K-Nearest Neighbors (KNN) algorithm. 
 * **Output:** Validation is handled using a Confusion Matrix to track True/False Positives and Negatives. The model's success is measured via the F1 Score to find the harmonic mean between Precision and Recall.
 
